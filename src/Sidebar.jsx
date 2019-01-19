@@ -22,6 +22,7 @@ import Logo from './Logo';
 import Avator from './Avator';
 import HeaderCard from './HeaderCard';
 import AddCustomerButton from './AddCustomerButton';
+import CustomerType from './CustomerSelect';
 
 const drawerWidth = 240;
 
@@ -187,7 +188,10 @@ class PersistentDrawerLeft extends React.Component {
           <div className="container-fluid">
           <div className="customer-selector">
           </div>
+          <div className="top-header">
+            <CustomerType/>
             <AddCustomerButton/>
+          </div>
             <Typography paragraph>
               <HeaderCard/>
               <HeaderCard/>

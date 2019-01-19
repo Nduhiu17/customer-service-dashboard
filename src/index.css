@@ -88,3 +88,15 @@ div {
 .customer-selector{
   height: 2vh;
 }
+
+.top-header{
+  display: flex;
+  justify-content: space-between;
+  padding: 23px;
+}
+
+.btn-secondary {
+  color:black !important;
+  background-color: #FFFFFF !important;
+  border-color: gray !important;
+}
