@@ -16,8 +16,6 @@ code {
 img {
   width: 27vw;
   height: 14vh;
-  padding: 15px;
-  margin-right: 5px;
 }
 
 div {
@@ -27,4 +25,78 @@ div {
 .MuiAppBar-colorPrimary-18 {
   color: rgba(0, 0, 0, 0.87) !important;
   background-color: #f5f5f5 !important;
+}
+
+.nav-items{
+  display:flex;
+  justify-content: space-between;
+  color: #74431A;
+}
+
+.nav-item{
+  margin-right: 2vw;
+  margin-top: 3vh;
+
+}
+
+.avator-div{
+  display: flex;
+  margin-left: auto;
+}
+
+.logout-div{
+  color: #E86424 !important;
+  margin: -6vh;
+}
+
+.logo-div{
+  margin: 5px;
+}
+
+.avator-text {
+  margin-top: 6px;
+}
+
+.MuiButton-containedSecondary-262 {
+  color: #fff;
+  background-color: #E86424 !important;
+}
+
+.ImgMediaCard-card-247 {
+  max-width: 100% !important;
+}
+
+.MuiButton-containedSecondary-269 {
+  color: #fff;
+  background-color: #E86424 !important;
+}
+
+.container-fluid{
+  background-color: #F1F5F8;
+  height: auto;
+}
+
+.ImgMediaCard-card-275 {
+  max-width: 100% !important;
+}
+
+.customer-cards{
+  margin: 22px;
+  margin-bottom: 5px !important;
+}
+
+.customer-selector{
+  height: 2vh;
+}
+
+.top-header{
+  display: flex;
+  justify-content: space-between;
+  padding: 23px;
+}
+
+.btn-secondary {
+  color:black !important;
+  background-color: #FFFFFF !important;
+  border-color: gray !important;
 }
